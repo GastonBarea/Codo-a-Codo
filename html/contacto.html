@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style-contacto.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="conteiner-menu">
             <div class="logo">
-                <a href="index.html"><img src="img/logo.webp" class="logo" alt="Las Mentas"></a>
+                <a href="../index.html"><img src="../img/logo.webp" class="logo" alt="Las Mentas"></a>
             </div>
             <div class="menu">
                 <i class="fas fa-bars" id="btn_menu"></i>
                 <div id="back_menu"></div>
                 <nav id="nav">
-                    <a href="index.html"><img src="img/logo.webp" class="logo" alt="Las Mentas"></a>
+                    <a href="index.html"><img src="../img/logo.webp" class="logo" alt="Las Mentas"></a>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="nosotros.html">Nosotros</a></li>
                         <li><a href="servicios.html">Servicios</a></li>
                         <li><a href="apartamentos.html">Apartamentos</a></li>
@@ -33,6 +34,32 @@
     <section>
 
         <!--De esta parte se encarga Gastón pruba-->
+        <section class="formulario">
+    
+            <h1 class="titulo-form">Contáctanos</h1>
+        
+        <div>
+
+            <form autocomplete="off" action="#" method="post">
+                    <p>Nombre:</p>
+                   <input class="campo" type="text" name="nombre" placeholder="*Nombre" required>
+                   <p>Apellido:</p>
+                    <input class="campo" type="text" name="apellido" placeholder="*Apellido" required>
+                    <p>Email:</p>
+                    <input class="campo" type="email" name="email" placeholder="*Email" required>
+                    <p>Nota:</p>
+                    <textarea class="campo" name="mensaje" cols="30" rows="10" placeholder="*Dejanos tu cansulta:..."></textarea>
+                    <p>Deseo recibir promociones y fechas de eventos:
+                    <input type="radio" name="respromo" value="Si">Si
+                    <input type="radio" name="respromo" value="No" checked>No
+                    </p>
+                    <p class="centrar-btn-enviar">
+                    <input class="btn btn-green" type="submit" value="Enviar">
+                    </p>
+                    <p>*Todos los campos son oblicatoros</p>
+            </form>
+             
+        </div>
 
 
     </section>
@@ -42,7 +69,7 @@
             <div class="SiteMap">
                 <h2>SiteMap</h2>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="apartamentos.html">Apartamentos</a></li>
@@ -65,6 +92,6 @@
     </div>
     
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
