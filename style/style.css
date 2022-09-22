@@ -645,3 +645,93 @@ form p {
   height:400px!important;
 }
 /*------------------------Gaston------------------------*/
+/*------------------------Nicolas------------------------*/
+/*------------------------Apartamentos------------------------*/
+.bodyy{
+  background-color: rgb(10, 71, 23);
+}
+.aparta{
+  
+  padding-top: 150px;
+}
+.imagen{
+  width: 100%;
+}
+.imagen img{
+  width: 100%;
+  border-radius: 15%;
+}
+.galeria{
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.contenedor-galeria{
+  margin: 35px;
+  padding: 60px;
+  background-color: #9ab99d;
+  border-radius: 20%;
+}
+.contenedor-galeria1{
+  margin: 35px;
+  padding: 60px;
+  background-color: #9ab99d;
+  border-radius: 20%;
+}
+.contenedor-galeria2{
+  margin: 35px;
+  padding: 60px;
+  background-color: #9ab99d;
+  border-radius: 20%;
+}
+.imagen img:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0,0,0,0.5);
+}
+@media screen and (min-width: 100px){
+  .galeria{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contenedor-galeria{
+    border-radius: 0;
+  }
+  .contenedor-galeria1{
+    border-radius: 0;
+  }
+  .contenedor-galeria2{
+    border-radius: 0;
+  }
+}
+@media screen and (min-width: 520px){
+  .galeria{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contenedor-galeria{
+    border-radius: 10%;
+  }
+  .contenedor-galeria1{
+    border-radius: 10%;
+  }
+  .contenedor-galeria2{
+    border-radius: 10%;
+  }
+}
+@media screen and (min-width: 900px){
+  .galeria{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contenedor-galeria{
+    border-radius: 20%;
+  }
+  .contenedor-galeria1{
+    border-radius: 20%;
+  }
+  .contenedor-galeria2{
+    border-radius: 20%;
+  }
+}
+/*------------------------Nicolas------------------------*/
